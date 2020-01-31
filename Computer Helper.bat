@@ -273,13 +273,6 @@ move "%folderlocation%\*.c" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
 move "%folderlocation%\*.java" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
 move "%folderlocation%\*.json" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
 move "%folderlocation%\*.jar" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
-
-if %username%==AI199864 (
-	move "%folderlocation%\*.bat" "%USERPROFILE%\Documents\Batch Files" 1>nul 2>nul
-	move "%folderlocation%\*.cmd" "%USERPROFILE%\Documents\Batch Files" 1>nul 2>nul
-) else (
-	move "%folderlocation%\*.cmd" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
-)
 move "%folderlocation%\*.py" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
 move "%folderlocation%\*.cs" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
 move "%folderlocation%\*.otf" "%USERPROFILE%\Desktop\Program Files" 1>nul 2>nul
